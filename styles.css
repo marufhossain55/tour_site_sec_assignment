@@ -1,8 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap');
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-h2 {
-  color: #e00404;
+
+body {
+  font-family: 'Mulish', sans-serif;
 }
+.nav-section {
+  max-width: 1200px;
+  /* width: 1170px; */
+  /* background-color: pink; */
+  margin: 52px auto 49px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  /* min-width: none; */
+}
+.nav-container img {
+  width: 48px;
+  width: 46px;
+  object-fit: cover;
+}
+.nav-container p {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 800;
+  padding-left: 16px;
+}
+.nav-container p span {
+  color: #ff5400;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  /* border: #ff5400 solid 2px; */
+  text-align: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #424247;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-links a span {
+  color: #ff5400;
+}
+
+/* hero section start */
+.hero {
+  width: 1170px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(./Images/Group\ 13.png);
+}
+/* hero section end */
+
+.hero-banner {
+}
+.hero-banner h1 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  margin: 106px auto 24px auto;
+}
+.hero-banner p {
+  text-align: center;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 48px;
+}
+
+.hero-action {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.hero-action button {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* .hero-action {}
+.hero-action {} */
