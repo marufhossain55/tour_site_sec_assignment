@@ -9,7 +9,7 @@ body {
   font-family: 'Mulish', sans-serif;
 }
 .nav-section {
-  max-width: 1200px;
+  max-width: 1170px;
   /* width: 1170px; */
   /* background-color: pink; */
   margin: 52px auto 49px auto;
@@ -75,10 +75,7 @@ body {
     ),
     url(./Images/Group\ 13.png);
 }
-/* hero section end */
 
-.hero-banner {
-}
 .hero-banner h1 {
   color: #fff;
   font-family: Mulish;
@@ -102,6 +99,9 @@ body {
 .hero-action {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  display: flex;
+  gap: 12px;
 }
 
 .hero-action button {
@@ -115,6 +115,39 @@ body {
   font-family: Mulish;
   font-size: 16px;
   font-weight: 700;
+  margin-left: 12px;
 }
-/* .hero-action {}
-.hero-action {} */
+.hero-action input {
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+
+.hero-action select {
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hero-action input[type='text'] {
+  width: 174px;
+  height: 52px;
+  /* padding: 5px; */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border-radius: 8px;
+  border: none;
+}
+
+.hero-action select {
+  width: 174px;
+  height: 52px;
+  padding: 10px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border-radius: 8px;
+  border: none;
+}
+
+/* hero section end */
