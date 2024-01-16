@@ -611,12 +611,12 @@ li {
 /* Deals & Discounts section ends here */
 
 /* media section stats here */
-
 .media-container {
   max-width: 1170px;
   margin: 100px auto 100px auto;
   display: flex;
 }
+
 .media-container h1 {
   color: #131318;
   font-family: Mulish;
@@ -625,6 +625,7 @@ li {
   font-weight: 800;
   line-height: 60px; /* 150% */
 }
+
 .media-container p {
   color: #5a5a5d;
   font-family: Mulish;
@@ -634,16 +635,12 @@ li {
   margin-bottom: 8px;
   margin-top: 24px;
 }
+
 .media-div-right {
   margin-right: 28px;
   width: 50%;
 }
-/* .media-list-container {
-  margin: 0 16px auto 10px;
-} */
 
-/* .media-container {
-} */
 .media-div-right li {
   margin-left: 25px;
   color: #131318;
@@ -671,12 +668,15 @@ li {
 .media-div-left {
   width: 610px;
   height: 424px;
-  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0) 100%),
-    url(./Images/Group\ 40089.png);
   border-radius: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  overflow: hidden; /* Hide overflowing video edges */
+  position: relative;
+}
+
+.media-div-left video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .media-div-left span {
@@ -686,6 +686,10 @@ li {
   font-size: 24px;
   font-weight: 700;
   line-height: 36px; /* 150% */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* videos section end here */
