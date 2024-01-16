@@ -234,6 +234,70 @@ li {
   margin-bottom: 48px;
 }
 
+#box-1 {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(./Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+}
+#box-2 {
+  fill: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(./Images/Rectangle\ 8.png),
+    lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+}
+#box-3 {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(./Images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
+}
+#box-4 {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(./Images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+}
+#box-5 {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(./Images/Rectangle\ 9.png), lightgray 50% / cover no-repeat;
+}
+#box-6 {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(./Images/Rectangle\ 11.png), lightgray 50% / cover no-repeat;
+}
+#box-7 {
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(./Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
+}
+
 /* destination grid section ends */
 
 /* services section starts here */
@@ -307,8 +371,101 @@ li {
   margin: 24px auto auto auto;
 }
 
+/* Deals & Discounts section stats here */
+.deals {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.deals-heading {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+.deals-text {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 25px;
+}
+.deals-cards-1 {
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  background: url(./Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+  display: flex;
+  justify-content: flex-end;
+}
+.deals-cards-2 {
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  background: url(./Images/Group\ 40.png), lightgray 50% / cover no-repeat;
+}
+.deals-cards-3 {
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  background: url(./Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+}
+.deals-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.deals-btn {
+  width: 210px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deals-cards-details-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-right: 56px;
+}
+.deals-cards-details {
+  width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.deals-cards-icons {
+  display: flex;
+  margin-top: 52px;
+}
+/* Deals & Discounts section ends here */
+
 /* media section stats here */
 
+.deals-cards-icons img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
 .media-container {
   max-width: 1170px;
   margin: 100px auto 100px auto;
