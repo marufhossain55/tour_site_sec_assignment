@@ -70,6 +70,7 @@ body {
     flex-direction: column;
     margin-top: 24px;
     margin-left: 35px;
+    margin-bottom: 0px;
   }
 
   .tours button {
@@ -84,6 +85,7 @@ body {
 
   .destination {
     max-width: 90%;
+    margin-top: 24px;
   }
   .destination h2 {
     color: #131318;
@@ -175,6 +177,8 @@ body {
   }
   .services-cards-container {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .services-cards {
