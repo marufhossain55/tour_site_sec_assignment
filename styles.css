@@ -391,6 +391,7 @@ li {
 .newsletter {
   max-width: 1170px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 .newsletter-container {
   display: flex;
@@ -454,6 +455,39 @@ li {
   font-size: 32px;
   font-weight: 800;
 }
+
+#fname {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.newsletter-textbox {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+}
+
+.newsletter-btn {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+}
+.newsletter-textbox::placeholder {
+  color: rgba(19, 19, 24, 0.3);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+
 /* newsletter section end here */
 
 /* footer starts here */
