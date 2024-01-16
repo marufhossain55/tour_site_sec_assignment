@@ -262,18 +262,19 @@ li {
 .flex-1 {
   display: flex;
   justify-content: space-between;
+  /* gap: 12px; */
 }
 .flex-2 {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
+  /* gap: 24px; */
   margin-top: 24px;
 }
 
 .flex-3 {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
+  /* gap: 24px; */
   margin-top: 24px;
 }
 
@@ -288,6 +289,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 24px;
 }
 #box-2 {
   border-radius: 16px;
@@ -315,6 +317,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 24px;
 }
 #box-4 {
   border-radius: 16px;
@@ -331,6 +334,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 24px;
 }
 #box-5 {
   border-radius: 16px;
@@ -362,6 +366,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 24px;
 }
 #box-7 {
   border-radius: 16px;
