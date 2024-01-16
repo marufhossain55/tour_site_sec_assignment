@@ -801,3 +801,7 @@ li {
 .footer-copyright {
   text-align: center;
 }
+
+.hide {
+  display: none;
+}
